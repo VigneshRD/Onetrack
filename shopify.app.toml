@@ -1,0 +1,53 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "b6823a30d9e12ec9ea439d16d1a8c239"
+name = "OneTrack"
+application_url = "https://ls-front-shopify-lstrack-app.onrender.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2026-07"
+
+  [[webhooks.subscriptions]]
+  uri = "https://example.com/webhooks/app/uninstalled"
+  topics = [ "app/uninstalled" ]
+
+  [[webhooks.subscriptions]]
+  uri = "https://example.com/webhooks/app/scopes_update"
+  topics = [ "app/scopes_update" ]
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_assigned_fulfillment_orders,write_assigned_fulfillment_orders,read_customers,write_customers,write_draft_orders,read_draft_orders,read_fulfillments,write_fulfillments,read_gift_cards,write_gift_cards,write_inventory,read_inventory,read_merchant_managed_fulfillment_orders,write_merchant_managed_fulfillment_orders,write_metaobject_definitions,write_metaobjects,write_order_edits,read_order_edits,read_orders,write_orders,read_products,write_products,read_publications,write_publications,read_script_tags,write_script_tags,read_store_credit_account_transactions,write_store_credit_account_transactions,read_store_credit_accounts,read_third_party_fulfillment_orders,write_third_party_fulfillment_orders"
+optional_scopes = [ ]
+use_legacy_install_flow = false
+
+[auth]
+redirect_urls = [ "https://devappservice.lateshipment.com/authdem/callback" ]
+
+[product.metafields.app.demo_info]
+type = "single_line_text_field"
+name = "Demo Source Info"
+description = "Tracks products created by the Shopify app template for development"
+
+  [product.metafields.app.demo_info.access]
+  admin = "merchant_read_write"
+
+[metaobjects.app.example]
+name = "Example"
+description = "An example metaobject definition created by this template"
+
+  [metaobjects.app.example.access]
+  admin = "merchant_read_write"
+
+[metaobjects.app.example.fields.title]
+name = "Title"
+type = "single_line_text_field"
+required = true
+
+[metaobjects.app.example.fields.description]
+name = "Description"
+type = "multi_line_text_field"

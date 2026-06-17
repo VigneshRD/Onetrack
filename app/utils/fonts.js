@@ -1,0 +1,121 @@
+// utils/fonts.js
+// Mirrors the `fonts` array from the original Twig/JS builder view
+
+export const FONTS = [
+    { name: 'select', value: '', style: 'display:none;' },
+    { name: 'obviously-wide', value: 'obviously-wide, sans-serif' },
+    { name: 'obviously-extended', value: 'obviously-extended, sans-serif' },
+    { name: 'Roboto', value: 'Roboto, sans-serif' },
+    { name: 'Roboto Mono', value: 'Roboto Mono, monospace' },
+    { name: 'Exo', value: 'Exo, sans-serif' },
+    { name: 'Krona One', value: 'Krona One, Helvetica, sans-serif' },
+    { name: 'Arial', value: 'Arial, Helvetica, sans-serif' },
+    { name: 'Arial Black', value: 'Arial Black, Gadget, sans-serif' },
+    { name: 'Brush Script MT', value: 'Brush Script MT, sans-serif' },
+    { name: 'Comic Sans MS', value: 'Comic Sans MS, cursive, sans-serif' },
+    { name: 'Courier New', value: 'Courier New, Courier, sans-serif' },
+    { name: 'Georgia', value: 'Georgia, serif' },
+    { name: 'Helvetica', value: 'Helvetica, sans-serif' },
+    { name: 'Impact', value: 'Impact, Charcoal, sans-serif' },
+    { name: 'Lucida Sans Unicode', value: 'Lucida Sans Unicode, Lucida Grande, sans-serif' },
+    { name: 'Tahoma', value: 'Tahoma, Geneva, sans-serif' },
+    { name: 'Times New Roman', value: 'Times New Roman, Times, serif' },
+    { name: 'Trebuchet MS', value: 'Trebuchet MS, Helvetica, sans-serif' },
+    { name: 'Verdana', value: 'Verdana, Geneva, sans-serif' },
+    { name: 'Nunito Sans', value: 'Nunito Sans, sans-serif' },
+    { name: 'Portrait', value: 'Portrait, sans-serif' },
+    { name: 'Maison Neue', value: 'Maison Neue, sans-serif' },
+    { name: 'Modern Era', value: 'Modern Era, sans-serif' },
+    { name: 'DM Sans', value: 'DM Sans, sans-serif' },
+    { name: 'Quicksand', value: 'Quicksand, sans-serif' },
+    { name: 'Frank Ruhl Libre', value: 'Frank Ruhl Libre, sans-serif' },
+    { name: 'Futura Pt', value: 'futura-pt, sans-serif' },
+    { name: 'Forma DJR Banner', value: 'Forma DJR Banner, sans-serif' },
+    { name: 'Alternate Gothic No1 D', value: 'Alternate Gothic No1 D, sans-serif' },
+    { name: 'Sequal Sans', value: 'Sequal Sans, sans-serif' },
+    { name: 'Sequal Sans Regular', value: 'Sequal Sans Regular, sans-serif' },
+    { name: 'Sequal 100 Regular', value: 'Sequal 100 Regular, sans-serif' },
+    { name: 'Sequal 100 Black', value: 'Sequal 100 Black, sans-serif' },
+    { name: 'Work Sans', value: 'Work Sans, sans-serif' },
+    { name: 'Montserrat', value: 'Montserrat, sans-serif' },
+    { name: 'Lato', value: 'Lato, sans-serif' },
+    { name: 'Noto Sans', value: 'Noto Sans, sans-serif' },
+    { name: 'TradeGothic LT CondEighteen', value: 'TradeGothic LT CondEighteen, sans-serif' },
+    { name: 'Harmonia Sans', value: 'Harmonia Sans Pro Cyr, sans-serif' },
+    { name: 'Asul', value: 'Asul, sans-serif' },
+    { name: 'Rockwell Nova', value: 'Rockwell Nova, sans-serif' },
+    { name: 'Epilogue', value: 'Epilogue, sans-serif' },
+    { name: 'Circular Std Book', value: 'Circular Std Book, sans-serif' },
+    { name: 'Open Sans', value: 'Open Sans, sans-serif' },
+    { name: 'Conthrax', value: 'Conthrax, sans-serif' },
+    { name: 'Figtree', value: 'Figtree, sans-serif' },
+    { name: 'proxima nova', value: 'proxima-nova, sans-serif' },
+    { name: 'Aeonik', value: 'Aeonik, sans-serif' },
+    { name: 'Tiempos Headline Light', value: 'Tiempos Headline Light, sans-serif' },
+    { name: 'Heebo', value: 'Heebo, sans-serif' },
+    { name: 'Rethink Sans', value: 'Rethink Sans, sans-serif' },
+    { name: 'Poppins', value: 'Poppins, sans-serif' },
+    { name: 'Karla', value: 'Karla, sans-serif' },
+    { name: 'Antarctica', value: 'Antarctica, sans-serif' },
+    { name: 'Oceanic', value: 'Oceanic, sans-serif' },
+    { name: 'Titillium Web', value: 'Titillium Web, sans-serif' },
+    { name: 'Aleo', value: 'Aleo, sans-serif' },
+  ];
+  
+  export const CANVAS_STYLES = [
+    'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css',
+
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/bootstrap.min.css',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/style.css',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/font.css',
+
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css',
+    'https://unpkg.com/leaflet@1.2.0/dist/leaflet.css',
+    'https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
+    'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Frank+Ruhl+Libre:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap',
+
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/swiper-bundle.min.css',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/modern-era.css',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/css/grapes.min.css',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/css/editor.css',
+
+    'https://use.typekit.net/bbi2jju.css',
+    'https://use.typekit.net/pbu6esy.css',
+    'https://www.tastesofchicago.com/content/stylesheet.css',
+    'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Asul:wght@400;700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Mooli&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Aleo:ital,wght@0,100..900;1,100..900&display=swap',
+    'https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css',
+  ];
+  
+  export const CANVAS_SCRIPTS = [
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/jquery-3.6.0.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/popper.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/bootstrap.min.js',
+    'https://unpkg.com/leaflet@1.2.0/dist/leaflet-src.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/script.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/swiper-bundle.min.js',
+
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/grapes.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/grapesjs-blocks-basic.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/structure.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/jquery-3.6.0.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/js/sweetalert.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/grapesjs-component-countdown.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/grapesjs-custom-code.min.js',
+    'https://devappservice.lateshipment.com/portal_assets/grapesjs/dist/grapesjs-plugin-ckeditor.min.js',
+    'https://cdn.jsdelivr.net/npm/toastify-js',
+  ];
+
+
+  
+  
+  export const TEMPLATES = {
+    workspace1: 'Template 1',
+    workspace2: 'Template 2',
+    workspace3: 'Template 3',
+    workspace4: 'Template 4',
+    workspace5: 'Template 5',
+    workspace6: 'Template 6',
+    workspace7: 'Template 7',
+    workspace8: 'Template 8',
+  };
+  
